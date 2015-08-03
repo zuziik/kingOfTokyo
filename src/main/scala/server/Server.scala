@@ -25,7 +25,11 @@ object Server extends UnicastRemoteObject with TokyoServer{
    */
   override def connect(client: TokyoClient): Int = {
     players synchronized {
-      if( players.size >= 6) throw new ServerException("Too many players!")
+      if( players.size >= 6) throw new RuntimeException("Too many players!")
+      val id = players.size
+      val newPlayer = Player(id, client, 10, 0)
+      players += newPlayer
+      id
     }
   }
 
