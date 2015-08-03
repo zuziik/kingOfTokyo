@@ -2,6 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92f1b770-60f7-461a-8c71-2b647cc5d62a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="/media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/build/classes/main/shared/Card.class" />
+      <change type="NEW" beforePath="" afterPath="/media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/build/classes/main/client/Client$$anon$1.class" />
+      <change type="NEW" beforePath="" afterPath="/media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/build/classes/main/client/Client$$anon$2.class" />
+      <change type="NEW" beforePath="" afterPath="/media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/build/classes/main/client/Client$.class" />
+      <change type="NEW" beforePath="" afterPath="/media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/build/classes/main/client/Client.class" />
+      <change type="NEW" beforePath="" afterPath="/media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/build/classes/main/shared/Player$.class" />
+      <change type="NEW" beforePath="" afterPath="/media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/build/classes/main/shared/Player.class" />
+      <change type="NEW" beforePath="" afterPath="/media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/build/classes/main/server/Server$.class" />
+      <change type="NEW" beforePath="" afterPath="/media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/build/classes/main/server/Server.class" />
+      <change type="NEW" beforePath="" afterPath="/media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/build/classes/main/client/TokyoClient.class" />
+      <change type="NEW" beforePath="" afterPath="/media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/build/classes/main/server/TokyoServer.class" />
+      <change type="NEW" beforePath="" afterPath="/media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/.gradle/2.2/taskArtifacts/cache.properties.lock" />
+      <change type="NEW" beforePath="" afterPath="/media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/.gradle/2.2/taskArtifacts/fileHashes.bin" />
+      <change type="NEW" beforePath="" afterPath="/media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/.gradle/2.2/taskArtifacts/fileSnapshots.bin" />
+      <change type="NEW" beforePath="" afterPath="/media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/.gradle/2.2/taskArtifacts/outputFileStates.bin" />
+      <change type="NEW" beforePath="" afterPath="/media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/.gradle/2.2/taskArtifacts/taskArtifacts.bin" />
+      <change type="NEW" beforePath="" afterPath="/media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/.gradle/2.2/taskArtifacts/cache.properties" />
       <change type="MODIFICATION" beforePath="/media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/.idea/workspace.xml" afterPath="/media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/.idea/workspace.xml" />
     </list>
     <ignored path="KingOfTokyo.iws" />
@@ -101,8 +118,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
         <entry file="file:///media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3923445">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="2.2392344">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -1030,7 +1047,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438623665222</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="server interface">
+      <created>1438627673819</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1438627673819</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1050,12 +1073,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48710167" sideWeight="0.503096" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776934" sideWeight="0.504644" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.64188164" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.64188164" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48710167" sideWeight="0.49690402" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776934" sideWeight="0.49535602" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1300,8 +1323,8 @@
     </entry>
     <entry file="file:///media/win/Users/ntb1/Programovanie/Scala/Hry/KingOfTokyo/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3923445">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="2.2392344">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
           <folding />
         </state>
       </provider>
