@@ -5,9 +5,13 @@ import java.rmi.registry.LocateRegistry
 import java.rmi.server.UnicastRemoteObject
 
 import client.TokyoClient
-import shared.Card
+import shared.{Player, Card}
+
+import scala.collection.mutable
 
 object Server extends UnicastRemoteObject with TokyoServer{
+
+  protected val players = mutable.Buffer[Player]()
 
   def main(args: Array[String]): Unit = {
     LocateRegistry.createRegistry(1099)
@@ -20,8 +24,9 @@ object Server extends UnicastRemoteObject with TokyoServer{
    * @return
    */
   override def connect(client: TokyoClient): Int = {
-    5
-   // throw new RuntimeException("nie si na rade")
+    players synchronized {
+      if( players.size >= 6) throw new ServerException("Too many players!")
+    }
   }
 
   /**

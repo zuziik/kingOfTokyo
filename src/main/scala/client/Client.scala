@@ -21,21 +21,22 @@ object Client extends UnicastRemoteObject with TokyoClient{
     preferredSize = new Dimension(500, 500)
   }
 
-
   val frame = new MainFrame {
-    title = "Net Tron"
+    title = "King of Tokyo"
     contents = panel
     centerOnScreen()
   }
+
   def main(args: Array[String]): Unit = {
+    frame.open()
     val server = Naming.lookup("rmi://localhost/TokyoServer") match {
       case s: TokyoServer => s
       case _ => throw new RuntimeException("Invalid type for RMI server")
     }
-    println(this)
     val playerNumber = server.connect(this)
     println(playerNumber)
   }
+
   override def startGame(): Unit = {}
 
   override def turn(id: Int): Unit = {}
